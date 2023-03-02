@@ -30,4 +30,5 @@ function createBoxes(amount) {
 
 destroyBtn.addEventListener('click', () => {
   boxes.remove();
+  input.value = "";
 });
