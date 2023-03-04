@@ -13,7 +13,6 @@ createBtn.addEventListener('click', () => {
   let amount = Number(input.value);
   
   if (amount > input.getAttribute('max')) {
-    amount = input.getAttribute('max');
     input.value = input.getAttribute('max');
   }
   createBoxes(amount);
