@@ -1,6 +1,7 @@
 
 const categoriesList = document.querySelector('#categories');
-const categoriesItems = [...categoriesList.children];
+const categoriesItems = categoriesList.children;
+console.log("🚀 ~ file: task-01.js:4 ~ categoriesItems:", categoriesItems)
 
 console.log(`Number of categories: ${categoriesItems.length}`);
 
