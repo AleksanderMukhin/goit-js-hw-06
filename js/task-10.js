@@ -10,7 +10,7 @@ const createBtn = document.querySelector('[data-create]');
 const destroyBtn = document.querySelector('[data-destroy]');
 
 destroyBtn.addEventListener('click', () => {
-  boxes.remove();
+  boxes.innerHTML = "";
   input.value = "";
 });
 
