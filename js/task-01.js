@@ -1,9 +1,6 @@
 
 const categoriesList = document.querySelector('#categories');
-
-// const categoriesItems = document.querySelectorAll('li.item');
 const categoriesItems = [...categoriesList.children];
-console.log("🚀 categoriesItems:", categoriesItems)
 
 console.log(`Number of categories: ${categoriesItems.length}`);
 
